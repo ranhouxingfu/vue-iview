@@ -1,0 +1,109 @@
+/*.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}*/
+
+.ivu-collapse-header {
+	color: white !important;
+	background: #99CC99;
+}
+
+
+/*查询条件*/
+
+.searchBox li {
+	margin-top: 10px;
+}
+
+.searchBox li>label:first-of-type {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.searchBox li>label:nth-of-type(2) {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.search .ivu-collapse-content>.ivu-collapse-content-box {
+	padding-top: 0 !important;
+	padding-bottom: 10px !important;
+}
+
+
+/*表格编辑按钮和删除按钮样式*/
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+	margin-left: 5px;
+}
+
+.marginTop {
+	margin-top: 5px;
+}
+
+
+/*日期组件样式*/
+
+.dateBox {
+	width: 120px;
+	display: inline-block;
+}
+
+
+/*编辑和详情样式*/
+
+.user-info {
+	margin: 0 12px;
+}
+
+.info-row {
+	position: relative;
+}
+
+.info-row:first-child .info-name {
+	border-top: 0;
+}
+
+.info-name {
+	position: absolute;
+	width: 110px;
+	text-align: right;
+	padding: ;
+	padding: 6px 10px 10px 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border-bottom: 1px dashed #d5e4f1;
+	border-top: none;
+	font-weight: normal;
+	color: #667e99;
+	background-color: transparent;
+	/*border-top: 1px dashed #d5e4f1;*/
+}
+
+.info-row:first-child .info-value {
+	border-top: 0;
+}
+
+.info-value {
+	/*padding: 5px;*/
+	padding: 6px 4px 6px 6px;
+	margin-left: 140px;
+	border-top: 1px dashed #d5e4f1;
+	border-bottom: 1px dashed #d5e4f1;
+	border-top: none;
+}
+.btnGroup{
+	position: fixed;
+	right: 15px;
+	top:57px;
+	z-index: 14;
+}

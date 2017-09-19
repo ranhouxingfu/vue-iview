@@ -1,0 +1,22 @@
+[
+      {
+        "id": 2,
+        "name": "二大队",
+        "projectname": "旅客摆渡车"
+      },
+      {
+        "id": 3,
+        "name": "三大队",
+        "projectname": "电源车"
+      },
+      {
+        "id": 4,
+        "name": "四大队",
+        "projectname": "除冰车"
+      },
+      {
+        "id": 5,
+        "name": "五大队",
+        "projectname": "引导车"
+      }
+]

@@ -1,0 +1,284 @@
+module.exports = function() {
+	var data = {
+		tableList : [],
+		projectList : [],
+		unitList:[],
+		chargeData:[],
+		projectData:[],
+		unitData:[],
+	};
+	//var rows = [], projectData = [],unitData=[];
+	var total = 0;
+	data.chargeData.push({
+		id:1,
+		name : '国内地面服务收费',
+		standard : 2236.85,
+		flylanding : null,
+		money : 366843.10,
+		money1 : 346078.68,
+		tax : 20764.72,
+		department : '',
+		mark : ''
+	}, {
+		id:2,
+		name : '配载、通信、集装及旅客、行李服务',
+		standard : '476.85',
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:3,
+		name : '货物和邮件服务',
+		standard : '476',
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:4,
+		name : '站坪服务（基本收费）',
+		standard : 102,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:5,
+		name : '飞机服务（过站服务）',
+		standard : 120,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:6,
+		name : '飞机勤务（一般勤务）',
+		standard : 150,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:7,
+		name : '例行检查',
+		standard : 608,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:8,
+		name : '飞机放行',
+		standard : 304,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:9,
+		name : '签牌费',
+		standard : 150,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:10,
+		name : '航前/航后',
+		standard : 2310,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	}, {
+		id:11,
+		name : '停场费',
+		standard : 267,
+		flylanding : 164,
+		money : 78203.40,
+		money1 : 73776.79,
+		tax : 4426.61,
+		department : '',
+		mark : ''
+	})
+
+	data.projectData.push({
+		id:1,
+		type : 'A330',
+		costname : '国内地面服务费',
+		standard : 2940
+	}, {
+		id:2,
+		type : 'A330',
+		costname : '配载、通信、集装及旅客、行李服务',
+		standard : 2940
+	}, {
+		id:3,
+		type : 'A330',
+		costname : '货物和邮件服务',
+		standard : 2940
+	}, {
+		id:4,
+		type : 'A330',
+		costname : '站坪服务（基本收费）',
+		standard : 2940
+	}, {
+		id:5,
+		type : 'A330',
+		costname : '飞机服务(过站服务)',
+		standard : 2940
+	}, {
+		id:6,
+		type : 'A330',
+		costname : '飞机勤务（一般勤务）',
+		standard :2940
+	}, {
+		id:7,
+		type : 'A330',
+		costname : '例行检查',
+		standard :2940
+	}, {
+		id:8,
+		type : 'A330',
+		costname : '飞机放行',
+		standard : 2940
+	}, {
+		id:9,
+		type : 'A330',
+		costname : '签牌费',
+		standard : '2940'
+	}, {
+		id:10,
+		type : 'A330',
+		costname : '航前／航后',
+		standard : 2940
+	}, {
+		id:11,
+		type : 'A330',
+		costname : '停场费',
+		standard : 2940
+	}, {
+		id:12,
+		type : '其他',
+		costname : '牵引车',
+		standard : '普通飞机160元/次'
+	}, {
+		id:13,
+		type : '其他',
+		costname : '牵引车',
+		standard : '宽体飞机320元/次'
+	}, {
+		id:14,
+		type : '其他',
+		costname : '旅客摆渡车',
+		standard : '55元/次'
+	}, {
+		id:15,
+		type : '其他',
+		costname : '机组摆渡车',
+		standard : '40元/次'
+	}, {
+		id:16,
+		type : '其他',
+		costname : '客梯车',
+		standard : '45元/小时'
+	}, {
+		id:17,
+		type : '其他',
+		costname : '除冰车',
+		standard : '600元/小时'
+	}, {
+		id:18,
+		type : '其他',
+		costname : '引导车',
+		standard : '120元/次'
+	}, {
+		id:19,
+		type : '其他',
+		costname : '气源车',
+		standard : '宽体飞机480元/次'
+	}, {
+		id:20,
+		type : '其他',
+		costname : '气源车',
+		standard : '普通飞机160元/次'
+	}, {
+		id:21,
+		type : '其他',
+		costname : '电源车',
+		standard : '宽体飞机400元/次'
+	}, {
+		id:22,
+		type : '其他',
+		costname : '电源车',
+		standard : '普通飞机200元/次'
+	}, {
+		id:23,
+		type : '其他',
+		costname : '非例行检查',
+		standard : '160元/人*小时'
+	}, {
+		id:24,
+		type : '其他',
+		costname : '除冰液',
+		standard : '45元/公升'
+	}, {
+		id:25,
+		type : '其他',
+		costname : '升降平台车',
+		standard : '195元/小时'
+	})
+	data.unitData.push({
+		id:1,
+		name:'一大队',
+		projectname:'机组摆渡车'
+	},{
+		id:2,
+		name:'二大队',
+		projectname:'旅客摆渡车'
+	},{
+		id:3,
+		name:'三大队',
+		projectname:'电源车'
+	},{
+		id:4,
+		name:'四大队',
+		projectname:'除冰车'
+	},{
+		id:5,
+		name:'五大队',
+		projectname:'引导车'
+	})
+	data.tableList.push({
+		total : data.chargeData.length,
+		rows : data.chargeData,
+	})
+	data.projectList.push({
+		total : data.projectData.length,
+		rows : data.projectData
+	})
+	data.unitList.push({
+		total : data.unitData.length,
+		rows : data.unitData
+	})
+	return data
+}

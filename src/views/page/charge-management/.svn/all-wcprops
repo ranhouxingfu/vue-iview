@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/airportcharges/!svn/ver/11/src/views/page/charge-management
+END
+charge-management.vue
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/airportcharges/!svn/ver/21/src/views/page/charge-management/charge-management.vue
+END
+edit.vue
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/airportcharges/!svn/ver/20/src/views/page/charge-management/edit.vue
+END
+add.vue
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/airportcharges/!svn/ver/20/src/views/page/charge-management/add.vue
+END

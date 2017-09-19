@@ -1,0 +1,123 @@
+[
+      {
+        "id": 1,
+        "name": "国内地面服务收费",
+        "standard": 2236.85,
+        "flylanding": null,
+        "money": 366843.1,
+        "money1": 346078.68,
+        "tax": 20764.72,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 2,
+        "name": "配载、通信、集装及旅客、行李服务",
+        "standard": "476.85",
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 3,
+        "name": "货物和邮件服务",
+        "standard": "476",
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 4,
+        "name": "站坪服务（基本收费）",
+        "standard": 102,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 5,
+        "name": "飞机服务（过站服务）",
+        "standard": 120,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 6,
+        "name": "飞机勤务（一般勤务）",
+        "standard": 150,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 7,
+        "name": "例行检查",
+        "standard": 608,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 8,
+        "name": "飞机放行",
+        "standard": 304,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 9,
+        "name": "签牌费",
+        "standard": 150,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 10,
+        "name": "航前/航后",
+        "standard": 2310,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      },
+      {
+        "id": 11,
+        "name": "停场费",
+        "standard": 267,
+        "flylanding": 164,
+        "money": 78203.4,
+        "money1": 73776.79,
+        "tax": 4426.61,
+        "department": "",
+        "mark": ""
+      }
+]
